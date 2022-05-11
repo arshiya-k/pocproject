@@ -22,7 +22,7 @@ Our research started by examining our own living spaces and identifying key tech
 We used Adobe Photoshop for most of the graphical elements of the living space, with the aid of royalty-free, non-commercial images from the internet. Other design elements were created with HTML and CSS. 
 
 ### Code 
-We used HTML, CSS, and some Javascript for the design of the website and the p5.js library for the interactivity of hovering and displaying prompts. 
+We used HTML, CSS, and some Javascript for the design of the website and the p5.js library for the interactivity of hovering and displaying prompts and we host the website on GitHub Pages. 
 
 
 
