@@ -1,4 +1,5 @@
-let img; // Declare variable 'img'.
+//declarations
+let img;
 let spkr;
 let hp;
 let tv;
@@ -7,7 +8,7 @@ let meta;
 let books;
 let netflix;
 
-
+//load all the images first
 function setup() {
   createCanvas(windowWidth, windowHeight);
   img = loadImage('images/room.png'); // Load the image
@@ -16,15 +17,13 @@ function setup() {
   tv = loadImage('images/tv2.png')
   cam = loadImage('images/camera.png')
   meta = loadImage('images/meta.png')
-  books = loadImage('images/books.png')
+  books = loadImage('images/books2.png')
   netflix = loadImage('images/netflix.png')
 }
 
 function draw() {
-  // Displays the image at its actual size at point (0,0)
-  // image(img, 0, 0);
-  // Displays the image at point (0, height/2) at half size
-  // imageMode(CENTER);
+
+  //Loads background graphic - designed by Sarah Al-Towaity
   image(img, 0, 0, windowWidth, windowHeight);
   
   //books - goodreads
@@ -32,7 +31,7 @@ function draw() {
     image(books,(360/1920)*windowWidth, (215/1080)*windowHeight, (870/1920)*windowWidth, (580/1080)*windowHeight); 
   }
   
-  //tv
+  //samsung tv
   if ((mouseX > (960/1920)*windowWidth) && (mouseX < (1480/1920)*windowWidth) && (mouseY > (100/1080)*windowHeight) && (mouseY < (410/1080)*windowHeight)){
     image(tv, (650/1920)*windowWidth, (420/1080)*windowHeight, (786/1920)*windowWidth, (550/1080)*windowHeight); 
   }
